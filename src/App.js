@@ -10,14 +10,16 @@ import React from 'react';
 // import PortalDemo from './comonents/PortalDemo';
 // import ErrorhandlingEg from './comonents/ErrorhandlingEg';
 // import ErrorBoundary from './comonents/ErrorBoundary';
-import ClickCounter from './comonents/ClickCounter';
-import HoverCounter from './comonents/HoverCounter';
+// import ClickCounter from './comonents/ClickCounter';
+// import HoverCounter from './comonents/HoverCounter';
+import ClickCounterTwo from './comonents/ClickCounterTwo';
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-      <HoverCounter/>
+      <ClickCounterTwo/>
+      {/* <HoverCounter/> */}
       {/* <ClickCounter/> */}
       {/* <ErrorBoundary>
       <ErrorhandlingEg name="king"/>
